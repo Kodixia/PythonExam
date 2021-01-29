@@ -1,5 +1,4 @@
-from utileries import getMovieTitles as gm
+from moviesUtileries import getMovieTitles as gm
 
 if __name__ == "__main__":
-    gm("spiderman")
-
+    titles = gm("spiderman")
